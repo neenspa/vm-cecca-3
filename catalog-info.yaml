@@ -1,0 +1,13 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: vm-cecca-3
+  description: create-a-vm
+  annotations:
+    backstage.io/kubernetes-id: vm-cecca-3
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: api
+  lifecycle: production
+  owner: amargheritini
